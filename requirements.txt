@@ -1,0 +1,5 @@
+asgiref==3.5.2
+coverage==6.5.0
+Django==4.1.2
+django-appconf==1.0.5
+sqlparse==0.4.3
