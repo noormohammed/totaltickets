@@ -2,10 +2,9 @@ from datetime import datetime
 from django.test import TestCase
 from django.conf import settings
 from django.test.utils import override_settings
+from django.core.exceptions import ValidationError
 
 from samples.sample_function import do_lots_of_things
-
-from django.core.exceptions import ValidationError
 
 
 # Base class for Test classes
