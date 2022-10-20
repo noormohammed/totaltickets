@@ -19,6 +19,9 @@ Then install the dependencies:
 
 ```sh
 (env)$ pip install -r requirements.txt
+```
+
+### For running the django application
 
 Once `pip` has finished downloading the dependencies:
 ```sh
