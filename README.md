@@ -30,7 +30,7 @@ Once `pip` has finished downloading the dependencies:
 
 Create a `.env` file in the project root and setup a Django Secret Key in the .env file.
 ```sh
-SECRET_KEY = 'YOUR_SECRET_KEY';
+SECRET_KEY = 'YOUR_SECRET_KEY'
 ```
 
 Finally, to run the application
