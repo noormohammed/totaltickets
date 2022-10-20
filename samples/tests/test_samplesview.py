@@ -14,6 +14,9 @@ class SamplesViewTestCases(TestCase):
     def setUp(self) -> None:
         self.response = self.client.get('/samples/', follow=True)
 
+    def test_response(self):
+        self.assertIsNotNone(self.response)
+
     def test_view_load(self):
         self.assertEqual(self.response.status_code, 200)
 
