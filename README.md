@@ -33,6 +33,7 @@ Create a `.env` file in the project root and setup a Django Secret Key in the .e
 SECRET_KEY = 'YOUR_SECRET_KEY';
 ```
 
+Finally, to run the application
 ```sh
 (env)$ python manage.py runserver
 ```
